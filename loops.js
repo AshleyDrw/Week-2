@@ -19,12 +19,12 @@ for (let i = 1; i < 100; i+= 2) {
 
 
 for (let i = 0; i < 101; i++) {
-    if (i % 3 == 0) {
-        console.log('Hello');
+    if (i % 15 == 0) {
+        console.log('HelloWorld');
     } else if (i % 5 == 0) {
         console.log('World');
-    } else if (i % 15 == 0) {
-        console.log('HelloWorld');
+    } else if (i % 3 == 0) {
+        console.log('Hello');
     } else {
         console.log(i);
     }
